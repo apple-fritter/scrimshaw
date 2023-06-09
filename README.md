@@ -4,6 +4,12 @@ Scrimshaw is a Rust-based program designed to parse and analyze nested character
 
 For more information on the driftwood standard, please visit the [driftwood repository](https://github.com/apple-fritter/driftwood).
 
+### A Proof of Concept
+
+Scrimshaw stands as the pioneering proof of concept and scraping implementation of the [driftwood standard](https://github.com/apple-fritter/driftwood). Scrimshaw showcases the practical application of Driftwood; With its unique Unicode character-based parsing approach and nested file structure handling, Scrimshaw demonstrates the feasibility and potential of the Driftwood standard.
+
+By offering efficient log file parsing, targeted message extraction and output generation, Scrimshaw sets the stage for future advancements in IRC log analysis and data extraction, and serves as a foundational project in the Driftwood ecosystem, paving the way for further developments and standardization efforts in the realm of IRC log processing.
+
 ## Requirements
 
 - Rust (stable)
