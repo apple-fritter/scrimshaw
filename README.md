@@ -14,6 +14,7 @@ By offering efficient log file parsing, targeted message extraction and output g
 
 - [Requirements](#requirements)
 - [Usage](#usage)
+- [Suppressing input](#suppressing-input)
 - [Flowchart](#flowchart)
 - [Potential Concerns](#potential-concerns)
 - [IRC Related Repositories](#irc-meta)
@@ -72,6 +73,20 @@ The extracted message texts will be saved in the file `GitHubFAN23_quotes.txt`.
 Feel free to customize and integrate Scrimshaw into your own Rust projects or workflows to efficiently parse and extract data from IRC log files.
 
 > Please ensure that you have the necessary permissions to access and process the IRC log files, and respect any data privacy or usage policies in place.
+    
+---
+
+## Suppressing input
+The '#' symbol in Column 1 of the IRC log files serves as a powerful tool to suppress specific lines of data from the parsing process in Scrimshaw. This feature allows users to selectively exclude certain content for any purpose they deem necessary.
+
+The use of '#' as a suppression marker is flexible and versatile, accommodating a wide range of scenarios. It enables users to hide sensitive information, offensive or triggering content, illegal data, or any other data that is irrelevant to the parsing process. By simply prefixing a line with '#', users can ensure that it is ignored during the data extraction phase.
+
+This functionality offers a level of control and discretion, empowering users to filter out content they do not wish to include in the final output. It allows for greater data privacy, content moderation, and adherence to legal or ethical considerations when working with IRC log files.
+
+When using Scrimshaw, it is important to respect data privacy, adhere to applicable regulations, and consider the implications of suppressing data. Exercise caution when dealing with sensitive information and ensure compliance with any relevant policies or guidelines.
+
+By leveraging the '#' symbol in Column 1, Scrimshaw provides a convenient mechanism to exclude specific lines from the parsing process, enabling users to have greater control over the content they extract and process.
+
 ---
 
 ## Flowchart
