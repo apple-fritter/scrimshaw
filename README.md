@@ -1,16 +1,3 @@
-## Index
-
-- [Scrimshaw](#scrimshaw)
-- [A Proof of Concept](#a-proof-of-concept)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Flowchart](#flowchart)
-- [Potential Concerns](#potential-concerns)
-- [IRC Meta](#irc-meta)
-- [IRC usage considerations](#irc-usage-considerations)
-- [Disclaimer](#disclaimer)
-- [License](#license)
-
 # Scrimshaw
 
 Scrimshaw is a Rust-based program designed to parse and analyze nested character-separated IRC log files, stored in the [driftwood](https://github.com/apple-fritter/driftwood) format. It allows you to search for specific user messages, extract the corresponding message text then store it in an appropriately labeled text file.
@@ -22,6 +9,17 @@ For more information on the driftwood standard, please visit the [driftwood repo
 Scrimshaw stands as the pioneering proof of concept and scraping implementation of the [driftwood standard](https://github.com/apple-fritter/driftwood). Scrimshaw showcases the practical application of Driftwood; With its unique Unicode character-based parsing approach and nested file structure handling, Scrimshaw demonstrates the feasibility and potential of the Driftwood standard.
 
 By offering efficient log file parsing, targeted message extraction and output generation, Scrimshaw sets the stage for future advancements in IRC log analysis and data extraction, and serves as a foundational project in the Driftwood ecosystem, paving the way for further developments and standardization efforts in the realm of IRC log processing.
+
+## Index
+
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Flowchart](#flowchart)
+- [Potential Concerns](#potential-concerns)
+- [IRC Related Repositories](#irc-meta)
+- [IRC usage considerations](#irc-usage-considerations)
+- [Disclaimer](#disclaimer)
+- [License](#license)
 
 ## Requirements
 
