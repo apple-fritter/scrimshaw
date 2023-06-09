@@ -59,7 +59,7 @@ cargo run --release -- [options] <username> <log_path>
 Scrimshaw will recursively search for log files in the specified directory structure. It will parse each log entry, looking for the specified username in the sender column. If a log entry contains the username in the appropriate column, it will extract the message text and save it to a file named <username>_quotes.txt in the output directory.
     
 #### Analyzing the Results:
-Navigate to the output directory to find the generated quote files. Open the <username>_quotes.txt file to view the extracted message texts. The file will only contain the message texts, with one message per line.
+Navigate to the output directory to find the generated quote files. Open the `<username>_quotes.txt` file to view the extracted message texts. The file will only contain the message texts, with one message per line.
     
 ### Example Usage:
 To search for all messages by the username "GitHubFAN23" in the IRC log files located in the directory structure described in the organizational method section, run the following command:
@@ -67,7 +67,7 @@ To search for all messages by the username "GitHubFAN23" in the IRC log files lo
 cargo run --release -- GitHubFAN23 /path/to/log/files
 ```
 
-The extracted message texts will be saved in the file GitHubFAN23_quotes.txt in the output directory.
+The extracted message texts will be saved in the file `GitHubFAN23_quotes.txt`.
 
 Feel free to customize and integrate Scrimshaw into your own Rust projects or workflows to efficiently parse and extract data from IRC log files.
 
