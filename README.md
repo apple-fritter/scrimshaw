@@ -27,12 +27,53 @@ By offering efficient log file parsing, targeted message extraction and output g
 - Cargo
 
 ## Usage
+To use Scrimshaw for parsing and extracting data from IRC log files, follow these steps:
 
-1. Clone the Scrimshaw repository:
+### Installation:
 
+#### Clone the Scrimshaw repository from GitHub:
 ```bash
-git clone https://github.com/your-username/scrimshaw.git
+git clone https://github.com/your_username/scrimshaw.git
 ```
+
+#### Navigate to the project directory:
+```bash
+cd scrimshaw
+```
+
+#### Install the required dependencies using Cargo, the Rust package manager:
+```bash
+cargo build --release
+```
+
+### Running Scrimshaw:
+
+Once the dependencies are installed, you can run Scrimshaw using the following command:
+```bash
+cargo run --release -- [options] <username> <log_path>
+```
+
+> Replace `username` with the desired username to search for in the log files and `log_path` with the path to the root directory of the IRC log files.
+
+#### Parsing and Extraction:
+Scrimshaw will recursively search for log files in the specified directory structure. It will parse each log entry, looking for the specified username in the sender column. If a log entry contains the username in the appropriate column, it will extract the message text and save it to a file named <username>_quotes.txt in the output directory.
+    
+#### Analyzing the Results:
+Navigate to the output directory to find the generated quote files. Open the <username>_quotes.txt file to view the extracted message texts. The file will only contain the message texts, with one message per line.
+    
+### Example Usage:
+To search for all messages by the username "GitHubFAN23" in the IRC log files located in the directory structure described in the organizational method section, run the following command:
+```bash
+cargo run --release -- GitHubFAN23 /path/to/log/files
+```
+
+The extracted message texts will be saved in the file GitHubFAN23_quotes.txt in the output directory.
+
+Feel free to customize and integrate Scrimshaw into your own Rust projects or workflows to efficiently parse and extract data from IRC log files.
+
+> Please ensure that you have the necessary permissions to access and process the IRC log files, and respect any data privacy or usage policies in place.
+---
+
 ## Flowchart
 ```
 Start Program
