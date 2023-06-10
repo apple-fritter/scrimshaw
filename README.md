@@ -26,6 +26,8 @@ By offering efficient log file parsing, targeted message extraction and output g
 
 - Rust (stable)
 - Cargo
+- Logs formatted in the [driftwood standard](https://github.com/apple-fritter/driftwood)
+- Consent
 
 ## Usage
 To use Scrimshaw for parsing and extracting data from IRC log files, follow these steps:
