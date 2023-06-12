@@ -36,7 +36,7 @@ To use Scrimshaw for parsing and extracting data from IRC log files, follow thes
 
 #### Clone the Scrimshaw repository from GitHub:
 ```bash
-git clone https://github.com/your_username/scrimshaw.git
+git clone https://github.com/apple-fritter/scrimshaw.git
 ```
 
 #### Navigate to the project directory:
