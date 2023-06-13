@@ -10,6 +10,12 @@ Scrimshaw stands as the pioneering proof of concept and scraping implementation 
 
 By offering efficient log file parsing, targeted message extraction and output generation, Scrimshaw sets the stage for future advancements in IRC log analysis and data extraction, and serves as a foundational project in the Driftwood ecosystem, paving the way for further developments and standardization efforts in the realm of IRC log processing.
 
+---
+
+> See also: [Digits](https://github.com/apple-fritter/digits) ensures your data is ready for further analysis, machine learning tasks, or natural language processing (NLP) applications; It is a powerful tool designed to clean and preprocess plaintext files; Remove non-numeric/alphabetic/punctuational characters, with the ability to collapse repeated punctuational and whitespace characters.
+
+---
+
 ## Index
 
 - [Requirements](#requirements)
