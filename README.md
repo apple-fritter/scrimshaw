@@ -149,7 +149,7 @@ Thoroughly test the program with different input scenarios and edge cases to unc
 
 ---
 
-## 🤪 IRC Meta
+## <a id="irc-meta"></a>🤪 IRC Meta
 ### [@apple-fritter](https://github.com/apple-fritter)'s IRC Repositories:
 
 ---
