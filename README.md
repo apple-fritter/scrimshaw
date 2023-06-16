@@ -23,6 +23,7 @@ By offering efficient log file parsing, targeted message extraction and output g
 - [Suppressing input](#suppressing-input)
 - [Flowchart](#flowchart)
 - [Potential Concerns](#potential-concerns)
+- [IRC Meta](#irc-meta)
 - [IRC usage considerations](#irc-usage-considerations)
 - [Disclaimer](#disclaimer)
 - [License](#license)
