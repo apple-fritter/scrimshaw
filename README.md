@@ -23,7 +23,7 @@ By offering efficient log file parsing, targeted message extraction and output g
 - [Suppressing input](#suppressing-input)
 - [Flowchart](#flowchart)
 - [Potential Concerns](#potential-concerns)
-- [IRC Related Repositories](#@apple-fritter's- IRC-Repositories)
+- [IRC Related Repositories](#apple-fritters- IRC-Repositories)
 - [IRC usage considerations](#irc-usage-considerations)
 - [Disclaimer](#disclaimer)
 - [License](#license)
